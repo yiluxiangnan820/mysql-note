@@ -1,4 +1,7 @@
-1、Unique index is not recommended
+1、Primary key
+It is recommended that the primary key set ‘AUTO_INCREMENT’ to prevent page splitting frequently.
+
+2、Unique index is not recommended
 Unique index can not use change buffer mechanism. 
 If it is acceptable in application,usually it brings about good performance with non-unique index  .
 
